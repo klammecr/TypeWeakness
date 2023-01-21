@@ -20,6 +20,48 @@ class PokemonType(Enum):
     FIGHTING= 'Fighting'
     FLYING= 'Flying'
 
+# # Enum tutorial
+# print(f"Number of Pokemon Types: {len(PokemonType)}")
+
+# # Call Syntax
+# fire_type = PokemonType("Fire")
+# print(f"Call Syntax: Fire Type: {fire_type}")
+
+# # Illegal Call Syntax
+# # fire_type = PokemonType("alk;fdsjlk")
+# # print(f"Call Syntax: Fire Type: {fire_type}")
+
+# # Index Syntax
+# fire_type = PokemonType.FIRE
+# print(f"Index Syntax: Fire Type: {fire_type}")
+
+# # Create the flying type
+# flying_type = PokemonType.FLYING
+# print(f"String that is mapped to the pokemon type {flying_type} is {flying_type.value}")
+
+
+# # For a concrete pokemon
+# charizard_type = [PokemonType.FLYING, PokemonType.FIRE]
+
+# charizard_type_strs = []
+# charizard_type_names = []
+# for type in charizard_type:
+#     # Getting a list of type strings
+#     charizard_type_strs.append(type.value)
+#     charizard_type_names.append(type.name)
+
+# print(f"Full type representation: {charizard_type}")
+# print(f"String list for Charizard's type: {charizard_type_strs}")
+# print(f"Name list for Charizard's type: {charizard_type_names}")
+
+# # # Check to see if we can get charizard's type
+# reconstructed_charizard_types = []
+# for type_str in charizard_type_strs:
+#     reconstructed_charizard_types.append(PokemonType(type_str))
+
+# print(f"Reconstructed charizard types: {reconstructed_charizard_types}")
+# print(reconstructed_charizard_types)
+# print(charizard_type)
 
 weak_table = \
 {
